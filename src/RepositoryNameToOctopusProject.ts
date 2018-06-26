@@ -1,4 +1,4 @@
-class RepositoryNameToOctopusProject {
+export class RepositoryNameToOctopusProject {
     convert(repositoryName : string): string {
         repositoryName = repositoryName.replace(".", " ");
         repositoryName = repositoryName.replace("_", " ");
